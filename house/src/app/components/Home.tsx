@@ -1,12 +1,14 @@
 import React from 'react'
-import MobNavbar from './MobNavbar'
+import Hero from './Hero'
+import Property from './Property'
+
 
 
 const Home = () => {
   return (
     <div>
-     
-     <MobNavbar />
+     <Hero />
+     <Property />
     </div>
   )
 }
