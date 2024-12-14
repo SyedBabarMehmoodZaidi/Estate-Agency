@@ -12,36 +12,37 @@ interface Props {
 const Header = ({openNav}:Props ) => {
   
     return (
-    <div>
+    <div  className="relative z-50">
       <div className="h-[12vh] bg-white">
       <div className="sm:w-[90%] w-[95%] mx-auto flex h-full items-center justify-between">
         {/* Logo div */}
 
         <div className="flex items-center space-x-1">
 
-        <div className='w-[1.4rem] h-[1.4rem] sm:w-[2rem] sm:h-[2rem] text-red-600'>  
-        <GiHouse className="w-full h-full"/>
-        </div>
+<div className="text-[20px] sm:text-[30px] text-red-600">
+    <GiHouse />
+</div>
 
-        <h1 className="text-[20px] sm:text-[30px] font-bold text-black whitespace-nowrap">Apna Ghar</h1>
-          
-        </div>
+<h1 className="text-[20px] sm:text-[30px] font-bold text-black whitespace-nowrap">Apna Ghar</h1>
+
+</div>
+
 
         {/* Navbar links */}
         <ul className="hidden lg:flex items-center justify-center space-x-10 h-full w-full">
-          <li className="text-[20px] font-medium hover:text-red-600">
+          <li className="text-[20px] font-bold hover:text-red-600">
             <Link href="/">HOME</Link>
           </li>
-          <li className="text-[20px] font-medium hover:text-red-600">
+          <li className="text-[20px] font-bold hover:text-red-600">
             <Link href="/shop">PROPERTIES</Link>
           </li>
-          <li className="text-[20px] font-medium hover:text-red-600">
+          <li className="text-[20px] font-bold hover:text-red-600">
             <Link href="/menu">SERVICES</Link>
           </li>
-          <li className="text-[20px] font-medium hover:text-red-600">
+          <li className="text-[20px] font-bold hover:text-red-600">
             <Link href="/blog">ABOUT ME</Link>
           </li>
-          <li className="text-[20px] font-medium hover:text-red-600">
+          <li className="text-[20px] font-bold hover:text-red-600">
             <Link href="/contact">CONTACT</Link>
           </li>
         </ul>

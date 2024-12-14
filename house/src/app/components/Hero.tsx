@@ -3,9 +3,9 @@ import React from 'react';
 const Hero = () => {
   return (
    
-    <div className="relative w-full h-screen overflow-hidden">
+    <div  >
   <video
-    className="absolute top-0 left-0 w-full h-full object-cover"
+    className="absolute top-0 left-0 w-full h-full object-cover z-0"
     src="/Videos/House.mp4"
     autoPlay
     loop
@@ -16,7 +16,7 @@ const Hero = () => {
 
   <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center z-10">
     <h1 className="font-bold text-[48px] text-white mb-4">BABAR BAMSI</h1>
-    <p className="font-bold text-[26px]  mb-8 text-yellow-100">I deliver the very best in all facets of real estate. <br /> 
+    <p className="font-bold text-[26px]  mb-8 text-yellow-100">I Deliver The Very Best In All Facets Of <span className='text-white font-extrabold'> Real Estate. </span> <br /> 
       Because You Deserve no less.</p>
     
     <div className="flex justify-center items-center gap-8">
