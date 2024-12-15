@@ -8,7 +8,7 @@ import Location from '/public/Images/location.png'
 
 const Featured = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-center h-screen mt-56">
+    <div className="flex flex-col justify-center items-center text-center h-screen mt-28">
     <div className="flex flex-col items-center">
       <h1 className="font-bold text-[40px] flex items-center text-[#252B42]">Featured Properties</h1>
       <p className="font-normal text-[14px] text-[#252B42] mt-2">

@@ -24,7 +24,7 @@ const Testimonials = () => {
   return (
     <div className="bg-orange-300">
       {/* Header Section */}
-      <div className="flex flex-col justify-center items-center text-center mt-48">
+      <div className="flex flex-col justify-center items-center text-center mt-28">
         <div className="flex flex-col items-center">
           <h1 className="font-bold text-[40px] flex items-center text-[#252B42]">
             Testimonials

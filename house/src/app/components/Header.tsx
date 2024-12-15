@@ -34,16 +34,16 @@ const Header = ({openNav}:Props ) => {
             <Link href="/">HOME</Link>
           </li>
           <li className="text-[20px] font-bold hover:text-red-600">
-            <Link href="/shop">PROPERTIES</Link>
+            <Link href="/Properties">PROPERTIES</Link>
           </li>
           <li className="text-[20px] font-bold hover:text-red-600">
-            <Link href="/menu">SERVICES</Link>
+            <Link href="/Services">SERVICES</Link>
           </li>
           <li className="text-[20px] font-bold hover:text-red-600">
-            <Link href="/blog">ABOUT ME</Link>
+            <Link href="/About">ABOUT ME</Link>
           </li>
           <li className="text-[20px] font-bold hover:text-red-600">
-            <Link href="/contact">CONTACT</Link>
+            <Link href="/Contact">CONTACT</Link>
           </li>
         </ul>
 

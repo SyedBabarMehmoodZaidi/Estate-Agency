@@ -78,7 +78,7 @@ const Property = () => {
     </div>
 
     {/* Image */}
-    <div className="w-full lg:w-1/2 flex justify-center items-center">
+    <div className="w-full lg:w-1/2 flex justify-center items-center" data-aos="fade-left">
       <Image src={Bamsi} alt="Image description" width={450} height={900} />
     </div>
   </div>

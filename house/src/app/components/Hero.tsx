@@ -15,6 +15,7 @@ const Hero = () => {
   <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div> {/* Black overlay */}
 
   <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center z-10">
+    
     <h1 className="font-bold text-[48px] text-white mb-4">BABAR BAMSI</h1>
     <p className="font-bold text-[26px]  mb-8 text-yellow-100">I Deliver The Very Best In All Facets Of <span className='text-white font-extrabold'> Real Estate. </span> <br /> 
       Because You Deserve no less.</p>

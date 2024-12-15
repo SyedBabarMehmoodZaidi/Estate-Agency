@@ -13,7 +13,7 @@ const Works = () => {
   return (
     <div>
       
-      <div className="flex flex-col justify-center items-center text-center mt-44">
+      <div className="flex flex-col justify-center items-center text-center mt-28">
     <div className="flex flex-col items-center">
       <h1 className="font-bold text-[40px] flex items-center text-[#252B42]">How It Work</h1>
       <p className="font-normal text-[14px] text-[#252B42] mt-2">
@@ -42,7 +42,7 @@ const Works = () => {
 
 
 <div>
-  <div className="h-auto lg:h-screen bg-orange-300 flex flex-col lg:flex-row items-center lg:mt-40">
+  <div className="h-auto lg:h-screen bg-orange-300 flex flex-col lg:flex-row items-center lg:mt-28">
     {/* Right Side Image Grid */}
     <div className="w-full lg:w-1/2 flex justify-center items-center p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
