@@ -18,28 +18,28 @@ const Property = () => {
       
       <div className="flex flex-wrap justify-center items-center gap-4 mt-[880px]">
 
-<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
   <Image src={Sale} alt="saleicon" width={72} height={72} />
   <h1 className="font-bold text-[20px]">Sell Property</h1>
   <p className="font-normal text-[14px]">Sell your property with confidence. Expert guidance, best deals, and hassle-free transactions.</p>
   <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
 </div>
 
-<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
   <Image src={Buy} alt="buyicon" width={72} height={72} />
   <h1 className="font-bold text-[20px]">Buy Property</h1>
   <p className="font-normal text-[14px]">Find your perfect property today. Explore top listings with great deals and expert guidance.</p>
   <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
 </div>
 
-<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
   <Image src={Rent} alt="renticon" width={72} height={72} />
   <h1 className="font-bold text-[20px]">Rent Property</h1>
   <p className="font-normal text-[14px]">Discover the perfect rental property with modern amenities, ideal locations, and affordable rates</p>
   <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
 </div>
 
-<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+<div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
   <Image src={Loan} alt="loanicon" width={72} height={72} />
   <h1 className="font-bold text-[20px]">Home Loan</h1>
   <p className="font-normal text-[14px]">Get the best home loan rates with flexible terms, making homeownership easy and affordable</p>

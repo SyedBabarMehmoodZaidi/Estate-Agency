@@ -58,7 +58,7 @@ const page = () => {
 
     {/* Image */}
     <div className="w-full lg:w-1/2 flex justify-center items-center">
-    <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
+    <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10 ">
           For Sale
         </div>
       <Image src={BuyProperty} alt="Image description" width={700} height={900} />

@@ -15,7 +15,7 @@ import Bamsi from '/public/Images/bamsi.jpg'
 const page = () => {
   return (
     <div>
-    <div className="relative w-full">
+    <div className="relative w-full ">
       <Image src={Banner} alt="banner" layout="responsive" width={100} height={50} objectFit="cover" />
       <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
       
@@ -41,12 +41,12 @@ const page = () => {
 
   {/* Right column - statistics */}
   <div className="flex gap-8 justify-center items-center">
-    <div className='border border-gray-300 p-24 text-center'>
+    <div className='border border-gray-300 p-24 text-center hover:shadow-xl hover:scale-[1.05] transition duration-300'>
       <h1 className='font-bold text-[24px] text-blue-950'>5+</h1>
       <p className='text-gray-500 text-[14px]'>Years of Experience</p>
     </div>
 
-    <div className='border border-gray-300 p-24 text-center'>
+    <div className='border border-gray-300 p-24 text-center hover:shadow-xl hover:scale-[1.05] transition duration-300'>
       <h1 className='font-bold text-[24px] text-blue-950'>1,000+</h1>
       <p className='text-gray-500 text-[14px]'>Satisfied Clients</p>
     </div>
@@ -56,7 +56,7 @@ const page = () => {
 
 <div className="container mx-auto px-4 py-8">
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Sale
@@ -76,7 +76,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Sale
@@ -96,7 +96,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Rent
@@ -116,7 +116,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Rent
@@ -136,7 +136,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Sale
@@ -156,7 +156,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Rent
@@ -176,7 +176,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Rent
@@ -196,7 +196,7 @@ const page = () => {
       </div>
     </div>
 
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <div className="relative w-1/2">
         <div className="absolute top-0 left-0 bg-blue-950 hover:bg-red-600 text-white text-xs font-bold px-2 py-1 rounded-br-lg z-10">
           For Sale

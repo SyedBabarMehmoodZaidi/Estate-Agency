@@ -85,28 +85,28 @@
 
       <div className="flex flex-wrap justify-center items-center gap-4 mt-[100px]">
 
-  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Sale} alt="saleicon" width={72} height={72} />
     <h1 className="font-bold text-[20px]">Sell Property</h1>
     <p className="font-normal text-[14px]">Sell your property with confidence. Expert guidance, best deals, and hassle-free transactions.</p>
     <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
   </div>
 
-  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Buy} alt="buyicon" width={72} height={72} />
     <h1 className="font-bold text-[20px]">Buy Property</h1>
     <p className="font-normal text-[14px]">Find your perfect property today. Explore top listings with great deals and expert guidance.</p>
     <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
   </div>
 
-  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Rent} alt="renticon" width={72} height={72} />
     <h1 className="font-bold text-[20px]">Rent Property</h1>
     <p className="font-normal text-[14px]">Discover the perfect rental property with modern amenities, ideal locations, and affordable rates</p>
     <button className="font-normal text-[14px] flex items-center space-x-2 bg-transparent border-none underline decoration-black hover:decoration-gray-400">View Service</button>
   </div>
 
-  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14">
+  <div className="w-[327px] h-[343px] flex flex-col justify-center items-center gap-6 bg-sky-300 hover:bg-blue-950 hover:text-white p-14 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Loan} alt="loanicon" width={72} height={72} />
     <h1 className="font-bold text-[20px]">Home Loan</h1>
     <p className="font-normal text-[14px]">Get the best home loan rates with flexible terms, making homeownership easy and affordable</p>
@@ -122,16 +122,16 @@
       {/* Right Side Image Grid */}
       <div className="w-full lg:w-1/2 flex justify-center items-center p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <div>
+          <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
             <Image src={Houseoutside6} alt="houseoutside1" width={240} height={700} />
           </div>
-          <div>
+          <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
             <Image src={InSide2} alt="houseinside2" width={240} height={700} />
           </div>
-          <div>
+          <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
             <Image src={OutSide1} alt="houseoutside2" width={240} height={700} />
           </div>
-          <div>
+          <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
             <Image src={HouseOutSide5} alt="houseoutside3" width={240} height={700} objectFit="cover"/>
           </div>
         </div>
@@ -200,19 +200,19 @@
       <div className="flex justify-center items-center py-8 mt-36">
     <div className="flex justify-center items-center space-x-10 ">
       {/* Box 1 */}
-      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white">
+      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white hover:shadow-xl hover:scale-[1.05] transition duration-300">
         <h1 className="text-xl font-semibold">Full Service Agent</h1>
         <p>I&apos;m honored that client referrals built my growing client family exclusively. My tried-and-true techniques give my clients a competitive advantage in this market environment.</p>
       </div>
 
       {/* Box 2 */}
-      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white">
+      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white hover:shadow-xl hover:scale-[1.05] transition duration-300">
         <h1 className="text-xl font-semibold">My Approach</h1>
         <p>I intend not just to make a good impact on ourselves and our families but also to inspire, encourage, and bring about permanent change in everyone we meet.</p>
       </div>
 
       {/* Box 3 */}
-      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white">
+      <div className="border p-4 rounded-lg shadow-lg w-1/3 hover:bg-blue-950 hover:text-white hover:shadow-xl hover:scale-[1.05] transition duration-300">
         <h1 className="text-xl font-semibold">My Values</h1>
         <p>My work ethic and the success of my business are driven by this guiding principle, which motivates me to maintain long-lasting connections with clients.</p>
       </div>

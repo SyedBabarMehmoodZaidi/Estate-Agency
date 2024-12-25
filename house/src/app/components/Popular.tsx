@@ -25,13 +25,13 @@ const Popular = () => {
     <div className="flex flex-wrap lg:flex-nowrap justify-center items-center h-auto lg:h-screen bg-gray-100 gap-8 p-4">
   {/* 1st Column */}
   <div className="flex flex-col items-center space-y-4 w-full lg:w-auto">
-    <div className="relative w-full lg:w-[240px] h-[300px]"  style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
-      <Image src={CommunityHall} alt="communityhall" layout="fill" objectFit="cover"  />
+    <div className="relative w-full lg:w-[240px] h-[300px] hover:shadow-xl hover:scale-[1.05] transition"  style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
+      <Image src={CommunityHall} alt="communityhall" layout="fill" objectFit="cover" />
       <span className="absolute inset-0 flex justify-center items-center text-white text-xl font-extrabold">
         Community Hall
       </span>
     </div>
-    <div className="relative w-full lg:w-[240px] h-[300px]" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
+    <div className="relative w-full lg:w-[240px] h-[300px] hover:shadow-xl hover:scale-[1.05] transition" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
       <Image src={Gym} alt="gym" layout="fill" objectFit="cover" />
       <span className="absolute inset-0 flex justify-center items-center text-white text-xl font-extrabold">
         Gym
@@ -41,7 +41,7 @@ const Popular = () => {
 
   {/* 2nd Column */}
   <div className="flex justify-center items-center w-full lg:w-auto">
-    <div className="relative w-full lg:w-[300px] h-[600px]" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
+    <div className="relative w-full lg:w-[300px] h-[600px] hover:shadow-xl hover:scale-[1.05] transition" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
       <Image src={SunSet} alt="sunset" layout="fill" objectFit="cover" />
       <span className="absolute inset-0 flex justify-center items-center text-white text-2xl font-extrabold">
         Sun Set
@@ -51,14 +51,14 @@ const Popular = () => {
 
   {/* 3rd Column */}
   <div className="flex flex-col items-center space-y-4 w-full lg:w-auto">
-  <div className="relative w-full lg:w-[240px] h-[300px]" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
+  <div className="relative w-full lg:w-[240px] h-[300px] hover:shadow-xl hover:scale-[1.05] transition" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
   <Image 
     src="/Images/swimmingpool.jpg" alt="Swimming Pool" layout="fill" objectFit="cover"/>
   <span className="absolute inset-0 flex justify-center items-center text-white text-xl font-extrabold">
     Swimming Pool
   </span>
 </div>
-    <div className="relative w-full lg:w-[240px] h-[300px]" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
+    <div className="relative w-full lg:w-[240px] h-[300px] hover:shadow-xl hover:scale-[1.05] transition duration-300" style={{ boxShadow: 'inset 0 0 15px 5px rgba(0, 0, 0, 0.5)' }}>
       <Image src={PlayArea} alt="playarea" layout="fill" objectFit="cover" />
       <span className="absolute inset-0 flex justify-center items-center text-white text-xl font-extrabold">
         Play Area

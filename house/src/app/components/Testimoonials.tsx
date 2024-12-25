@@ -41,7 +41,7 @@ const Testimonials = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-16 px-12 py-20">
         {/* First Column - Video */}
         <div className="relative w-full h-full flex justify-center items-center">
-          <div className="relative w-full h-full">
+          <div className="relative w-full h-full hover:shadow-xl hover:scale-[1.05] transition duration-300">
             <video
               ref={videoRef}
               className="absolute top-0 left-0 rounded-lg"
@@ -63,8 +63,8 @@ const Testimonials = () => {
         </div>
 
         {/* Second Column - First Testimonial */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full h-full flex flex-col justify-center">
-          <div className="flex justify-center mb-4">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full h-full flex flex-col justify-center hover:shadow-xl hover:scale-[1.05] transition duration-300">
+          <div className="flex justify-center mb-4 ">
             <Image
               src={Testimonials1}
               alt="houseImage"
@@ -87,7 +87,7 @@ const Testimonials = () => {
         </div>
 
         {/* Third Column - Second Testimonial */}
-        <div className="bg-white shadow-lg rounded-lg p-6 w-full h-full flex flex-col justify-center">
+        <div className="bg-white shadow-lg rounded-lg p-6 w-full h-full flex flex-col justify-center hover:shadow-xl hover:scale-[1.05] transition duration-300">
           <div className="flex justify-center mb-4">
             <Image
               src={Testimonials2}

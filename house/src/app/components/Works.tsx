@@ -23,18 +23,18 @@ const Works = () => {
     </div>
     </div>
 
-    <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-8 lg:gap-24 mt-8 lg:mt-32 p-4">
-  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4">
+    <div className="flex flex-wrap lg:flex-nowrap justify-center items-center gap-8 lg:gap-24 mt-8 lg:mt-32 p-4 ">
+  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Clock} alt="clockicon" width={52} height={52} />
     <span className="mt-4 text-center">Make an appointment</span>
   </div>
 
-  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4">
+  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={LevelBar} alt="levelbar" width={52} height={32} />
     <span className="mt-4 text-center">Evaluate the property</span>
   </div>
 
-  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4">
+  <div className="border border-black rounded-[5px] w-full lg:w-[250px] h-[128px] flex flex-col justify-center items-center hover:bg-blue-950 font-bold text-white bg-slate-500 p-4 hover:shadow-xl hover:scale-[1.05] transition duration-300">
     <Image src={Heart} alt="heart" width={52} height={32} />
     <span className="mt-4 text-center">Close the deal. Enjoy!</span>
   </div>
@@ -46,16 +46,16 @@ const Works = () => {
     {/* Right Side Image Grid */}
     <div className="w-full lg:w-1/2 flex justify-center items-center p-4">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        <div>
+        <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
           <Image src={Houseoutside6} alt="houseoutside1" width={240} height={700} />
         </div>
-        <div>
+        <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
           <Image src={InSide2} alt="houseinside2" width={240} height={700} />
         </div>
-        <div>
+        <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
           <Image src={OutSide1} alt="houseoutside2" width={240} height={700} />
         </div>
-        <div>
+        <div className="hover:shadow-xl hover:scale-[1.05] transition duration-300">
           <Image src={HouseOutSide5} alt="houseoutside3" width={240} height={700} objectFit="cover"/>
         </div>
       </div>

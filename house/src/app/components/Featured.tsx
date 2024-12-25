@@ -22,9 +22,9 @@ const Featured = () => {
   {/* Left Column */}
   <div>
     {/* HouseSale */}
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <Image src={HouseSale} alt="housesale" width={510} height={300} />
-      <div className="mt-4 text-center">
+      <div className="mt-4 text-center ">
         <p className="flex justify-center items-center font-bold text-gray-500 text-[14px]">
           <Image src={Location} alt="locationicon" width={22} height={22} />
           North Nazimabad, Karachi
@@ -47,9 +47,9 @@ const Featured = () => {
   </div>
 
   {/* Right Column */}
-  <div className="grid gap-8">
+  <div className="grid gap-8 ">
     {/* HouseRent */}
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <Image src={HouseRent} alt="houserent" width={240} height={242} />
       <div className="ml-4">
         <p className="flex items-center font-bold text-gray-500 text-[14px]">
@@ -68,7 +68,7 @@ const Featured = () => {
     </div>
 
     {/* HouseSale2 */}
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <Image src={HouseSale2} alt="housesale2" width={240} height={242} />
       <div className="ml-4">
         <p className="flex items-center font-bold text-[14px] text-gray-500">
@@ -87,7 +87,7 @@ const Featured = () => {
     </div>
 
     {/* HouseRent2 */}
-    <div className="flex">
+    <div className="flex hover:shadow-xl hover:scale-[1.05] transition duration-300">
       <Image src={HouseRent2} alt="houserent2" width={240} height={242} />
       <div className="ml-4">
         <p className="flex items-center font-bold text-[14px] text-gray-500">

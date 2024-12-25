@@ -53,14 +53,14 @@ const Footer = () => {
 
 
   <div className='flex flex-wrap justify-center items-center mt-10'>
-    <Image src={h1}alt='img' width={140} height={200}/>
-    <Image src={h2} alt='img' width={140} height={200}/>
-    <Image src={h3} alt='img' width={140} height={200}/>
-    <Image src={h4} alt='img' width={140} height={200}/>
-    <Image src={h5} alt='img' width={140} height={200}/>
-    <Image src={h6} alt='img' width={140} height={200}/>
-    <Image src={h7} alt='img' width={140} height={200}/>
-    <Image src={h8} alt='img' width={140} height={200}/>
+    <Image src={h1}alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h2} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h3} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h4} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h5} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h6} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h7} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
+    <Image src={h8} alt='img' width={140} height={200} className="hover:shadow-xl hover:scale-[1.05] transition duration-300"/>
   </div>
 
    <div>
