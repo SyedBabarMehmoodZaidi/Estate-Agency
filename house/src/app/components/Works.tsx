@@ -17,7 +17,7 @@ const Works = () => {
     <div className="flex flex-col items-center">
       <h1 className="font-bold text-[40px] flex items-center text-[#252B42]">How It Work</h1>
       <p className="font-normal text-[14px] text-[#252B42] mt-2">
-      If you've owned property, or it's your first time, and you're ready to submit an offer <br /> 
+      If you&apos;ve owned property, or it&apos;s your first time, and you&apos;re ready to submit an offer <br /> 
       or think about it in the next year or two, contact me now.
       </p>
     </div>

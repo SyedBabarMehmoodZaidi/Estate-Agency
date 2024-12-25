@@ -35,7 +35,7 @@ const page = () => {
       Browse for the perfect place to live by looking through listings, <br />
      areas, neighborhoods, and insider tips provided by residents. <br /> I 
       assist my customers in getting to the heart of their real estate <br />
-       demands, desires, and outcomes. I'm in this for the long term.
+       demands, desires, and outcomes. I&apos;m in this for the long term.
     </p>
   </div>
 
