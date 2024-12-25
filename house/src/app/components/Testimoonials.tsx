@@ -32,7 +32,7 @@ const Testimonials = () => {
           <p className="font-normal text-[14px] text-[#252B42] mt-2">
             I assist my customers in getting to the heart of their real estate
             <br />
-            demands, desires, and outcomes. I'm in this for the long term.
+            demands, desires, and outcomes. I&apos;m in this for the long term.
           </p>
         </div>
       </div>
@@ -99,7 +99,7 @@ const Testimonials = () => {
           </div>
           <h1 className="font-bold text-[24px] text-center mb-2">Very Skilled Agent</h1>
           <p className="text-gray-600 text-center mb-4">
-            Justin was the most skilled realtor I've ever worked with. I would certainly refer him to anybody seeking an excellent solution.
+            Justin was the most skilled realtor I&apos;ve ever worked with. I would certainly refer him to anybody seeking an excellent solution.
           </p>
           <div className="flex justify-center items-center mb-4">
             {[...Array(5)].map((_, index) => (
